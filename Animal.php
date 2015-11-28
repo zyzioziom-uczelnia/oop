@@ -17,6 +17,6 @@ class Animal {
   }
 }
 
-
+echo 'test';
 
  ?>
