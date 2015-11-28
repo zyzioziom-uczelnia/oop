@@ -2,7 +2,7 @@
 
 include_once 'Animal.php';
 
-$animal = new Animal;
+$animal = new Animal();
 
-
+echo $animal->thisAnimal();
  ?>
