@@ -1,9 +1,9 @@
 <?php
 class Animal {
-  $species;
-  $sex;
-  $sound;
-  $color;
+  public $species;
+  public $sex;
+  public $sound;
+  public $color;
 
   public function __construct() {
     $this -> species = "cow";
@@ -19,4 +19,4 @@ class Animal {
 
 echo 'test';
 
- ?>
+?>
