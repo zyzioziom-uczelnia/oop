@@ -1,5 +1,5 @@
 <?php
-class Animal {
+class Animal implements AnimalInterface {
   public $species;
   public $sex;
   public $sound;
